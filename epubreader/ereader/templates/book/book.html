@@ -1,0 +1,9 @@
+{% include 'ereader/header.html' %}
+{% include 'book/sidebar.html' %}
+
+<div id="content" class="p-4 p-md-5 pt-5">
+    {% for chapter in chapters %}
+        {{ chapter |safe }}
+    {% endfor %}
+  </div>
+{% include 'ereader/footer.html' %}

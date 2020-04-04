@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1335a163-59ce-4cb0-a19d-82836fa4db6a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/epub_reader.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/epubreader/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/epubreader/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/epubreader/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/epubreader/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/epubreader/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/ereader/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/ereader/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/ereader/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/ereader/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/ereader/migrations/0002_book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/ereader/migrations/0003_auto_20200215_1924.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/ereader/migrations/0004_book_author.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/ereader/migrations/0005_category_slug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/ereader/migrations/0006_remove_category_slug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/ereader/migrations/0007_auto_20200216_1058.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/ereader/migrations/0008_auto_20200216_2302.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/ereader/migrations/0009_auto_20200221_2015.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/ereader/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/ereader/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/ereader/templates/book/book.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/ereader/templates/book/sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/ereader/templates/ereader/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/ereader/templates/ereader/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/ereader/templates/ereader/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/ereader/templates/ereader/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/ereader/templates/ereader/library_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/ereader/templates/ereader/sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/ereader/templates/ereader/temp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/ereader/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/ereader/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/ereader/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/static/books/Moby-Dick_-_Herman_Melville.epub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/static/books/The_Goal_by_Eliyahu_M._Goldratt_Jeff_Cox.epub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/static/books/The_Phoenix_Project_-_Gene_Kim_Kevin_Behr_George_Spafford.epub" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/static/css/my.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/static/images/519C2Gz-v2L._SX334_BO1204203200_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/static/images/81C52369FL.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/static/images/cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/static/images/cover_piS9GTj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/epubreader/static/js/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/activate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/django-admin.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/django-admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/easy_install-3.7-script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/easy_install-3.7.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/easy_install-script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/easy_install.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pip-script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pip.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pip3-script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pip3.7-script.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pip3.7.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pip3.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/python.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/sqlformat.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/pyvenv.cfg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\python\epub_reader\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Xp9qid9yOTaQb5uhHQID72SgDh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../reference/InfoRestaurant" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python\epub_reader\epubreader\ereader\templates\ereader" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1335a163-59ce-4cb0-a19d-82836fa4db6a" name="Default Changelist" comment="" />
+      <created>1581732362124</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581732362124</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1585144104901">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585144104901" />
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585984510168">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585984510168" />
+  </component>
+</project>
