@@ -1,3 +1,25 @@
 .book_image{
     max-width: 125px;
 }
+
+body{
+    background-color: #2a303e;
+    color: #e3e3e3;
+    font-family: Arial, sans-serif, serif;
+    font-size: 18px;
+}
+
+h1, h2, h3{
+    color: #81899c;
+    font-family: serif;
+    font-family: Arial, sans-serif, serif;
+}
+
+button{
+    font: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    background-color:#4d7bd6;
+    border-color: #2e52af;
+    text-shadow: #4372c1 0 1px 3px;
+}

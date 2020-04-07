@@ -1,8 +1,6 @@
+{% extends "ereader/base.html" %}
+{% block content %}
 {% load static %}
-<link rel="stylesheet" href="{% static 'css/my.css' %}">
-{% include 'ereader/header.html' %}
-
-{% include 'ereader/sidebar.html' %}
 <div id="content" class="p-4 p-md-5 pt-5">
     <div class="container">
         <div class="row">
@@ -35,4 +33,4 @@
     </div>
 </div>
 </div>
-{% include 'ereader/footer.html' %}
+{% endblock %}

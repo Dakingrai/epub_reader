@@ -8194,7 +8194,7 @@ h1, h2, h3, h4, h5,
 #sidebar {
   min-width: 270px;
   max-width: 270px;
-  background: #3445b4;
+  background: #2a303e;
   color: #fff;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -8232,7 +8232,8 @@ h1, h2, h3, h4, h5,
       #sidebar ul li a:hover {
         color: #fff; }
     #sidebar ul li.active > a {
-      background: transparent;
+      background: #4f5564;
+      padding: 6px;
       color: #fff; }
   @media (max-width: 991.98px) {
     #sidebar {
@@ -8275,7 +8276,7 @@ h1, h2, h3, h4, h5,
           -webkit-transform: rotate(45deg);
           -ms-transform: rotate(45deg);
           transform: rotate(45deg);
-          background: #3445b4;
+          background: #4372c1;
           border-radius: 10px; }
         #sidebar .custom-menu .btn.btn-primary:hover, #sidebar .custom-menu .btn.btn-primary:focus {
           background: transparent !important;

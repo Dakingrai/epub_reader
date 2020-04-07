@@ -1,12 +1,36 @@
 
-{% include 'ereader/header.html' %}
+{% extends "ereader/base.html" %}
 
-{% include 'ereader/sidebar.html' %}
+{% block content %}
 <div id="content" class="p-4 p-md-5 pt-5">
-    <h2 class="mb-4">Sidebar #05</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
-  </div>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" style=" font: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    background-color:#4d7bd6;
+    border-color: #2e52af;
+    text-shadow: #4372c1 0 1px 3px;">
+        <span class="fa fa-plus mr-3"></span>ADD BOOK
+    </button>
+</div>
+</div>
 
-{% include 'ereader/footer.html' %}
+<div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Add book</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Modal body text goes here.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
